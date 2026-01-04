@@ -16,6 +16,13 @@ Designed for secure communication when the internet is unavailable, restricted, 
 * Clean, dark-themed GUI
 * Linux (Ubuntu & others) and Windows 10/11 support
 
+
+⚠ Important: Encryption Settings Compatibility
+Note: The security presets (High / Medium / Low) change how the encryption key is derived (memory, time, threads).
+Messages can only be decrypted if both sender and receiver use the same preset.
+If you change the default from High (Max Security) to another preset, the other party must select the same preset, or decryption will fail.
+Example: If you encrypt a message using Medium (Balanced), the recipient must also choose Medium (Balanced) to decrypt it correctly.
+
 ---
 
 ## Use Cases
